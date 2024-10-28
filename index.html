@@ -5,23 +5,92 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="Style/style.css">
+    <link rel="stylesheet" href="Styles/style.css">
 </head>
 
 <body>
     <div class="container">
+        
         <header class="header-content">
             <div class="header">
-                 Header Content
+                <div class="header-top">
+                    <div class="header-search">
+                        <img src="Icons/search.svg" alt="search" class="header-icon">
+                        <input type="text" placeholder="Search" class="header-input">
+                    </div>
+                    <div class="header-actions">
+                        <div class="header-notifications">
+                            <img src="Icons/notifications.svg" alt="notifications" class="header-icon">
+                            <span class="notification-badge">3</span>
+                        </div>
+                        <div class="header-profile">
+                            <div class="profile-picture">
+                                <img src="Icons/default-avatar.svg" alt="profile" class="avatar-img">
+                            </div>
+                            <div class="profile-name">Ery</div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="header-bottom">
+                    <div class="header-bottom-left">
+                        <div class="header-welcome">
+                            <p class="welcome-text">Welcome back,</p>
+                            <h1 class="user-name">Ery</h1>
+                        </div>
+                    </div>
+        
+                    <div class="header-bottom-right">
+                        <button class="header-btn">New</button>
+                        <button class="header-btn">Upload</button>
+                        <button class="header-btn">Share</button>
+                    </div>
+                </div>
             </div>
         </header>
 
         <div class="sidebar-content">
             <div class="sidebar">
-                <ul>
-                    <li>Item 1</li>
-                    <li>Item 2</li>
-                    <li>Item 3</li>
+                <h1 class="sidebar-title">Dashboard</h1>
+                <ul class="sidebar-list">
+                    <li class="sidebar-item">
+                        <img src="Icons/home.svg" alt="home" class="sidebar-icon">
+                        <p>Home</p>
+                    </li>
+                    <li class="sidebar-item">
+                        <img src="Icons/profile.svg" alt="profile" class="sidebar-icon">
+                        <p>Profile</p>
+                    </li>
+                    <li class="sidebar-item">
+                        <img src="Icons/message.svg" alt="message" class="sidebar-icon">
+                        <p>Messages</p>
+                    </li>
+                    <li class="sidebar-item">
+                        <img src="Icons/history.svg" alt="history" class="sidebar-icon">
+                        <p>History</p>
+                    </li>
+                    <li class="sidebar-item">
+                        <img src="Icons/task.svg" alt="tasks" class="sidebar-icon">
+                        <p>Tasks</p>
+                    </li>
+                    <li class="sidebar-item">
+                        <img src="Icons/community.svg" alt="Communities" class="sidebar-icon">
+                        <p>Communities</p>
+                    </li>
+                </ul>
+                <ul class="sidebar-settings">
+                    <li class="sidebar-item">
+                        <img src="Icons/setting.svg" alt="settings" class="sidebar-icon">
+                        <p>Settings</p>
+                    </li>
+                    <li class="sidebar-item">
+                        <img src="Icons/support.svg" alt="support" class="sidebar-icon">
+                        <p>Support</p>
+                    </li>
+                    <li class="sidebar-item">
+                        <img src="Icons/privacy.svg" alt="privacy" class="sidebar-icon">
+                        <p>Privacy</p>
+                    </li>
                 </ul>
             </div>
         </div>
